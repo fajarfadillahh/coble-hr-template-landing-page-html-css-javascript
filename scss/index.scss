@@ -258,3 +258,36 @@ img {
     line-height: $leading-text;
   }
 }
+
+// ===== PARTNER SECTION =====
+.partner {
+  padding: 4rem 0;
+
+  &__container {
+    gap: 2rem;
+  }
+
+  &__data {
+    text-align: center;
+    justify-self: center;
+  }
+
+  &__text {
+    font-size: 18px;
+    font-weight: $font-medium;
+    color: $black-color;
+    line-height: $leading-text;
+  }
+
+  &__group {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    justify-content: center;
+    gap: 3.5rem 2.5rem;
+  }
+
+  &__img {
+    width: 130px;
+    filter: invert(0.8);
+  }
+}
