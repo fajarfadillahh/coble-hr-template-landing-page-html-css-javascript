@@ -1,0 +1,134 @@
+// ===== FONT GOOGLE =====
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap");
+
+// ===== VARIABLE CSS CLASS =====
+// header height
+$header-height: 6rem;
+
+// color palette
+$black-color: #0d0e10;
+$grey-color: #3d474d;
+$white-color: #ffffff;
+
+// font global
+$font-title: "Playfair Display", serif;
+$font-text: "Poppins", sans-serif;
+
+// font weight
+$font-reguler: 400;
+$font-medium: 500;
+$font-semibold: 600;
+$font-bold: 700;
+
+// margin
+$margin-0-5: 0.5rem;
+$margin-1: 1rem;
+$margin-1-5: 1.5rem;
+$margin-2: 2rem;
+$margin-2-5: 2.5rem;
+$margin-3: 3rem;
+$margin-3-5: 3.5rem;
+$margin-4: 4rem;
+
+// z-index
+$z-back: -10;
+$z-normal: 1;
+$z-tooltip: 10;
+$z-fixed: 100;
+
+// transition
+$transition-400: 0.4s;
+
+// line-height
+$leading-title: 165%;
+$leading-text: 180%;
+
+// ===== RESET & BASE =====
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: $font-text;
+  font-weight: $font-reguler;
+}
+
+ul,
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+input,
+button {
+  font-family: $font-text;
+  font-weight: $font-semibold;
+  outline: none;
+  border: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+// ===== REUSABLE CSS CLASS =====
+.section {
+  padding: 8rem 0 4rem;
+
+  &-subtitle {
+    font-size: 15px;
+    font-weight: $font-semibold;
+    color: $black-color;
+    text-transform: uppercase;
+    margin-bottom: $margin-0-5;
+    line-height: $leading-text;
+  }
+
+  &-title {
+    font-family: $font-title;
+    font-size: 24px;
+    font-weight: $font-bold;
+    color: $black-color;
+    line-height: $leading-title;
+    margin-bottom: $margin-1;
+  }
+
+  &-text {
+    font-size: 15px;
+    color: $grey-color;
+    line-height: $leading-text;
+  }
+
+  &-bottom {
+    margin-bottom: $margin-2;
+  }
+}
+
+.button {
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: $black-color;
+  font-size: 15px;
+  font-weight: $font-semibold;
+  color: $white-color;
+}
+
+.container {
+  max-width: 1120px;
+  width: calc(100% - 3rem);
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+}
+
+.main {
+  overflow: hidden;
+}
