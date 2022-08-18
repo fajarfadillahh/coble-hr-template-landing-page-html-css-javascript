@@ -40,7 +40,7 @@ $z-fixed: 100;
 $transition-400: 0.4s;
 
 // line-height
-$leading-title: 165%;
+$leading-title: 150%;
 $leading-text: 180%;
 
 // ===== RESET & BASE =====
@@ -289,5 +289,23 @@ img {
   &__img {
     width: 130px;
     filter: invert(0.8);
+  }
+}
+
+// ===== CHALLENGE SECTION =====
+.challenge {
+  &__bg {
+    padding: 4rem 0;
+    background-color: #f7f8fc;
+  }
+
+  &__container {
+    gap: 3rem;
+  }
+
+  &__data,
+  &__img {
+    text-align: center;
+    justify-self: center;
   }
 }
