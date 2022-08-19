@@ -315,3 +315,35 @@ img {
     color: $white-color;
   }
 }
+
+// ===== SERVICES SECTION =====
+.services {
+  &__group {
+    display: grid;
+    gap: 6rem;
+  }
+
+  &__content {
+    display: grid;
+    gap: 3rem;
+
+    &-data,
+    &-img {
+      text-align: center;
+      justify-self: center;
+    }
+
+    &-button {
+      gap: 0.3rem;
+    }
+
+    &-arrow {
+      display: inline-flex;
+      font-size: 1.5rem;
+    }
+
+    &-img {
+      filter: drop-shadow(0 0 12px rgba(0, 0, 0, 0.1));
+    }
+  }
+}
