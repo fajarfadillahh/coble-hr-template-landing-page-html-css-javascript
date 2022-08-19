@@ -553,3 +553,26 @@ img {
     line-height: $leading-text;
   }
 }
+
+// ===== SCROLLUP SECTION =====
+.scrollup {
+  position: fixed;
+  right: 1.5em;
+  bottom: -100%;
+  width: 45px;
+  height: 45px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5em;
+  font-size: 1.5rem;
+  color: $white-color;
+  background-color: $black-color;
+  z-index: $z-normal;
+  transition: $transition-400;
+
+  // scroll action
+  &.scroll-action {
+    bottom: 3rem;
+  }
+}
