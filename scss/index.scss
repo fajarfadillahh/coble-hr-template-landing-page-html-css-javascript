@@ -296,7 +296,7 @@ img {
 .challenge {
   &__bg {
     padding: 4rem 0;
-    background-color: #f7f8fc;
+    background-color: #010510;
   }
 
   &__container {
@@ -307,5 +307,11 @@ img {
   &__img {
     text-align: center;
     justify-self: center;
+  }
+
+  &__subtitle,
+  &__title,
+  &__text {
+    color: $white-color;
   }
 }
