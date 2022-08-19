@@ -257,6 +257,10 @@ img {
     color: $grey-color;
     line-height: $leading-text;
   }
+
+  &__img {
+    filter: drop-shadow(0 0 12px rgba(0, 0, 0, 0.1));
+  }
 }
 
 // ===== PARTNER SECTION =====
@@ -313,6 +317,10 @@ img {
   &__title,
   &__text {
     color: $white-color;
+  }
+
+  &__img {
+    filter: drop-shadow(0 0 12px rgba(0, 0, 0, 0.1));
   }
 }
 
