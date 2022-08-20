@@ -576,3 +576,21 @@ img {
     bottom: 3rem;
   }
 }
+
+// ===== MEDIA QUERIES =====
+// width 480px
+@media screen and (min-width: 480px) {
+  .home__data,
+  .partner__data,
+  .challenge__data,
+  .services__content-data,
+  .testomonial__data {
+    width: 400px;
+  }
+
+  .home__img,
+  .challenge__img,
+  .services__content-img {
+    width: 400px;
+  }
+}
