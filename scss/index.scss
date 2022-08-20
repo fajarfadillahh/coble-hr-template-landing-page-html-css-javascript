@@ -594,3 +594,39 @@ img {
     width: 400px;
   }
 }
+
+// width 640px
+@media screen and (min-width: 640px) {
+  .section-title {
+    font-size: 32px;
+  }
+
+  .home__data,
+  .partner__data,
+  .challenge__data,
+  .services__content-data,
+  .testomonial__data {
+    width: 500px;
+  }
+
+  .home__img,
+  .challenge__img,
+  .services__content-img {
+    width: 500px;
+  }
+
+  .home__buttons,
+  .contact__buttons,
+  .contact__list {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .partner__group {
+    grid-template-columns: repeat(3, max-content);
+  }
+
+  .services__content-button {
+    display: inline-flex;
+  }
+}
