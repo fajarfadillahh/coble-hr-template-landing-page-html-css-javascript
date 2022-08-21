@@ -697,10 +697,8 @@ img {
       align-items: center;
     }
 
-    &__content:nth-child(2) {
-      & &-data {
-        order: 2;
-      }
+    &__content:nth-child(2) .services__content-data {
+      order: 2;
     }
 
     &__content-data,
