@@ -716,3 +716,44 @@ img {
     padding: 6rem 0;
   }
 }
+
+// width 1120px
+@media screen and (min-width: 1120px) {
+  .home {
+    &__data {
+      width: 800px;
+    }
+
+    &__title {
+      font-size: 48px;
+    }
+
+    &__text {
+      width: 650px;
+      margin: 0 auto $margin-2;
+    }
+
+    &__img {
+      width: 900px;
+    }
+  }
+
+  .partner {
+    &__text {
+      font-size: 20px;
+    }
+
+    &__group {
+      grid-template-columns: repeat(6, 1fr);
+      align-items: center;
+    }
+  }
+
+  .services__group {
+    gap: 8rem;
+  }
+
+  .footer__content {
+    justify-self: center;
+  }
+}
